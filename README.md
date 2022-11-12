@@ -5,5 +5,9 @@ Contents are small demonstration codes for <a href="https://jimfawcett.github.io
 <a href="https://jimfawcett.github.io/index.html">JimFawcett github website</a>.
 
 ### Note:<br />
-This repository contains folders GitDemoRust/demo1, GitDemoRust/demo2, and GitDemoRust/demo3 each of which contains a git repository.
-After some thought I decided not to use git modules or subtrees.  
+This repository contains a folder, GitDemoRust, that contains zipped git repositories for small demos about git. Git and github
+complain about git repositories within a parent repository. Git modules and subtrees are the official mechanism for handling this,
+but that complicates cloning and pushing so I opted for this approach.
+
+DeploymentRepo will eventually contain additional folders with other kinds of demonstration code.
+
